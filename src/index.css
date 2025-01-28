@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@font-face {
+    font-family: 'NeueMontreal';
+    src: local('NeueMontreal-Regular'); /* Reference the system font */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'FoundersGrotesk';
+    src: local('Test Founders Gtsk X-Cond SmB');
+  }
