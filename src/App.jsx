@@ -7,9 +7,14 @@ import Play from './components/Play'
 import Projects from './components/Projects'
 import Cards from './components/Cards'
 import Ready from './components/Ready'
+import Footer from './components/Footer'
+import LocomotiveScroll from 'locomotive-scroll';
+
 
 function App() {
+  const locomotiveScroll = new LocomotiveScroll();
   return (
+    
     <div className='bg-zinc-900 w-full min-h-screen text-white'>
       <Navbar />
       <Landing />
@@ -19,6 +24,7 @@ function App() {
       <Projects />
       <Cards />
       <Ready />
+      <Footer />
     </div>
   )
 }

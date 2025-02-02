@@ -21,4 +21,4 @@ function Eyes() {
     )
 }
 
-export default Eyes
+export default Eyes;
