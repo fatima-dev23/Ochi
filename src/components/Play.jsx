@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import playBg from "../assets/play-bg.jpg";
 
 function Play() {
     // State to hold pupil offset values
@@ -39,7 +40,7 @@ function Play() {
             <div
                 data-scroll
                 data-scroll-speed="-.6"
-                className="relative w-full h-full bg-[url('./src/assets/play-bg.jpg')] bg-cover bg-center"
+                className="relative w-full h-full bg-{playBg} bg-cover bg-center" style={{ backgroundImage: `url(${playBg})` }}
             >
                 {/* Absolute container for the eyes */}
                 <div className="absolute flex gap-10 top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">

@@ -1,4 +1,5 @@
 import React from 'react'
+import aboutImg from '../assets/our-approach-ochi.jpg'
 
 function About() {
   return (
@@ -12,7 +13,7 @@ function About() {
             <div className='w-2 h-2 rounded-full bg-zinc-100'></div>
           </button>
         </div>
-        <div className="col-span-6 items-center mx-7 mt-3 h-[70vh] rounded-lg bg-cover bg-[url('./src/assets/our-approach-ochi.jpg')]">
+        <div style={{backgroundImage: `url(${aboutImg})`}} className="col-span-6 items-center mx-7 mt-3 h-[70vh] rounded-lg bg-cover bg-[url('./src/assets/our-approach-ochi.jpg')]">
           {/* <img className='rounded-xl' src="src\assets\our-approach-ochi.jpg" alt="" /> */}
         </div>
       </div>
